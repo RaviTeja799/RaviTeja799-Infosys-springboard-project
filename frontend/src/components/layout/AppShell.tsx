@@ -20,6 +20,8 @@ import {
   Search,
   Users,
   Activity,
+  History,
+  BarChart3,
 } from "lucide-react";
 
 interface AppShellProps {
@@ -39,6 +41,8 @@ interface NavItem {
 const NAV_ITEMS: NavItem[] = [
   { label: "Home Dashboard", path: "/dashboard", icon: LayoutDashboard },
   { label: "Analytics & Reports", path: "/analytics", icon: LineChart },
+  { label: "Results History", path: "/results-history", icon: History },
+  { label: "Performance Dashboard", path: "/performance", icon: BarChart3 },
   { label: "Batch Predictions", path: "/batch-prediction", icon: UploadCloud },
   { label: "Simulation Lab", path: "/simulation-lab", icon: Sparkles },
   { label: "Model Testing", path: "/predict", icon: Brain },
